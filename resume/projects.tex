@@ -1,13 +1,26 @@
 \cvsection{Projects}
 \begin{cventries}
   \cventry
-    {Machine Learning and Computational Statistics}
-    {Is justice blind? And is it deaf?}
+    {Inference and Representation}
+    {EmineT: A variational LSTM to generate rap}
     {}
-    {Feb 2016 - May 2016}
+    {Oct 2016 -  Dec 2016}
     {
       \begin{cvitems}
-        \item {Using https://github.com/mjbommar/scotus-predict/ as a baseline model, showed that traits such as aggressive, confident etc as extracted from the audio transcripts and images of lawyers are predictive of case outcomes}
+        \item {Used a LSTM to model the distribution of amplitudes of the raw waveform at a given time-step given the previous time-steps}
+        \item {In addition, used a variational auto-encoder to model the latent variables at every time-step of the LSTM}
+        \item {Time-aligned the audio with lyrics, to provide phonemes as input in combination with the raw waveforms} 
+      \end{cvitems}
+    }
+  \cventry
+    {Natural Language Understanding with Deep Learning}
+    {Reading Comprehension}
+    {}
+    {Oct 2016 -  Dec 2016}
+    {
+      \begin{cvitems}
+        \item {Implemented the Stanford attention-based Reader to do question answering on the Who-did-What dataset in tensorflow}
+        \item {Implemented variants of the reader to incorporate information based on choices}
       \end{cvitems}
     }
   \cventry
